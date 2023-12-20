@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav {
+    display: block;
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    background-color: black;
+}
+
+nav ul {
+    padding: 10px;
+    margin: 10px;
+}
+
+nav ul li {
+    padding: 10px;
+
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+
+}
+
+.mdi {
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#home, #profile, #message, #hist, #task, #set, #sup, #priv, #com {
+    margin-bottom: 13px;
+    font-size: 14px;
+}
+
+#com {
+    margin-bottom: 40px;
+}
+
+.dash {
+    color: white;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+header {
+    background-color: rgb(163, 60, 60);
+    width: 80%;
+    position: absolute;
+    left: 20%;
+    height: 200px;
+}
+
+#love {
+    color: rgb(19, 18, 18);
+    position: absolute;
+    top: 200px; /* Adjust this value according to your layout */
+    left: 307px;
+    background-color: rgb(189, 188, 188);
+    width: 80%;
+    height: 150vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 375px 375px;
+    grid-template-rows: 205px 205px;
+    gap: 32px;
+    position: relative;
+    top: 80px;
+    margin-left: 40px;
+}
+
+#h_one {
+    margin-top: 50px;
+}
+
+
+
+.card {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.mini-card {
+    padding: 10px;
+}
+
+.icon-card {
+    display: grid;
+    grid-template-columns: 15px 15px 15px;
+    align-items: center; /* Vertically center the items */
+    gap: 35px;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.mdi-eye-plus, .mdi-star-plus-outline, .mdi-trash-can-outline{
+    color: brown;
+}
+
+.card-side {
+    background-color: 0;
+    width: 300px;
+    position: relative;
+    top: 80px;
+
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: 155px ;
+    gap: 30px;
+}
+
+.mini-side {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: 100px;
+    gap: 50px;
+}
+
+.one , .two {
+    background-color: white;
+    width: 300px;
+    height: 42vh;
+    border-radius: 8px;
+}
+
+.mini-one {
+    padding: 10px;
+    margin: 10px;
+}
+
+.lorem {
+    padding: 10px;
+    border-bottom-style: groove;
+}
+
+.two {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto );
+    gap: 0px;  
+    padding: 10px;
+    margin-top: -40px;
+}
+
+.pic_one {
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    position: absolute;
+    left: 45px;
+}
+
+.ps {
+    padding: 10px;
+}
+
+.one {
+    margin-top: -75px;
+}
+
+#announce {
+    position: relative;
+    top: -30px;
+}
+
+#y_proj {
+    color: black;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    width: 20%;
+}
+
+.grid-header {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+}
+
+.mini-grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    margin-top: 25px;
+    gap: 60px;
+}
+
+.mini-grid2{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    margin-top: 25px;
+    gap: 60px;
+}
+
+.mini-grid4{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    margin-top: 45px;
+    gap: 60px;
+}
+
+
+
+
+.mdi-magnify {
+    margin-left: 50px;
+    position: relative;
+    top: 6px;
+    font-size: 20px;
+    height: 25px;
+    color: black;
+}
+
+#research {
+    text-indent: 10px; /* Adjust the value as needed */
+    position: relative;
+    top: 3px;
+    width: 400px;
+    outline: none;
+    border-radius: 5px;
+    height: 25px;
+    border: 0;
+    margin-left: -40px;
+    background-color: grey;
+}
+
+::placeholder {
+    color: black;
+}
+
+.head_three {
+    width: 320px;
+    font-size: 20px;
+}
+
+.head_three p{
+    margin-top: 3px;
+}
+
+.head_one {
+    width: 50px;
+    font-size: 20px;
+}
+
+.lost {
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;   
+}
+
+.head_two {
+    width: 10px;
+    position: relative;
+    left: 260px;    
+    margin-bottom: -30px;
+}
+
+
+
+button {
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 0.5;
+    cursor: pointer;
+}
+
+.mdi-bell-outline {
+    font: 30px;
+    margin-left: 120px;
+    color: black;
+}
